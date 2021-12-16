@@ -1,2 +1,2 @@
 #!/bin/zsh
-docker run --name pinger_container  pinger/alpine:1.0
+docker run --rm --name pinger_container  -it pinger/alpine:1.0

@@ -12,3 +12,4 @@ COPY CMakeLists.txt main.cpp /opt/build
 RUN mkdir build;cd build;echo $PWD; cmake ..; make
 
 CMD ["build/pinger"]
+#CMD ["/bin/sh"]
